@@ -17,7 +17,7 @@ public class Spawner : MonoBehaviour
     {
         for (int i = 0; i < 10000; i++)
         {
-            Instantiate(enemySpawner, transform.position, Quaternion.identity);
+            Instantiate(enemySpawner, transform.position, Quaternion.identity);          
         }
     }
 }
